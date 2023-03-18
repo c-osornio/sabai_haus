@@ -50,12 +50,12 @@ function Counter2Home3RoomSuites() {
         <div className="row mb-50">
           <div className="col-12 d-flex flex-wrap align-items-center justify-content-between">
             <div className="section-title3">
-              <h2>Room &amp; Suits</h2>
+              <h2>Listings</h2>
             </div>
             <div className="view-btn">
-              <Link href="/room-suits1">
+              {/* <Link href="/room-suits1">
                 <a className="btn--primary4">View All Room</a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

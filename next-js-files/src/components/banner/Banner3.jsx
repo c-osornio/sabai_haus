@@ -10,19 +10,19 @@ function Banner3() {
   const [selectedOption2, setSelectedOption2] = useState(null);
 
   const options = [
-    { value: "Person 1", label: "Person 1" },
-    { value: "Person 2", label: "Person 2" },
-    { value: "Person 3", label: "Person 3" },
-    { value: "Person 4", label: "Person 4" },
-    { value: "Person 5", label: "Person 5" },
-    { value: "Person 6", label: "Person 6" },
+    { value: "1 Guest", label: "1 Guest" },
+    { value: "2 Guests", label: "2 Guests" },
+    { value: "3 Guests", label: "3 Guests" },
+    { value: "4 Guests", label: "4 Guests" },
+    { value: "5 Guests", label: "5 Guests" },
+    { value: "6 Guests", label: "6 Guests" },
   ];
   const roomOptions = [
-    { value: "Room 1", label: "Room 1" },
-    { value: "Room 2", label: "Room 2" },
-    { value: "Room 3", label: "Room 3" },
-    { value: "Room 4", label: "Room 4" },
-    { value: "Room 5", label: "Room 5" },
+    { value: "Listing 1", label: "Listing 1" },
+    { value: "Listing 2", label: "Listing 2" }
+    // { value: "Room 3", label: "Room 3" },
+    // { value: "Room 4", label: "Room 4" },
+    // { value: "Room 5", label: "Room 5" },
   ];
   const customStyles = {
     menu: (provided, state) => ({
@@ -63,10 +63,10 @@ function Banner3() {
           <div className="col-lg-6 d-flex justify-content-center align-items-center px-0">
             <div className="hero-left">
               <div className="hero-content">
-                <h4>Find The Coolest Hotel</h4>
-                <h1> Enjoy The Best Hotel Experience.</h1>
+                <h4>Find your perfect home away from home</h4>
+                <h1>Live like a local</h1>
                 <div className="hero-facility d-flex align-items-center justify-content-center">
-                  <div className="single-facility">
+                  {/* <div className="single-facility">
                     <div className="icon">
                       <img src="assets/images/icons/restaurant33.svg" alt="" />
                     </div>
@@ -77,7 +77,7 @@ function Banner3() {
                         </Link>
                       </h5>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="single-facility">
                     <div className="icon">
                       <img src="assets/images/icons/spa33.svg" alt="" />
@@ -177,7 +177,7 @@ function Banner3() {
                             menuColor="#333"
                             defaultValue={selectedOption}
                             options={options}
-                            placeholder="Person"
+                            placeholder="Guests"
                           />
                         </div>
                       </div>
@@ -203,7 +203,7 @@ function Banner3() {
                             menuColor="#333"
                             defaultValue={selectedOption2}
                             options={roomOptions}
-                            placeholder="Rooms"
+                            placeholder="Listings"
                           />
                         </div>
                       </div>
@@ -224,7 +224,7 @@ function Banner3() {
             <div className="banner-img">
               <img
                 className="img-fluid"
-                src="assets/images/bg/h3-banner-right-bg.png"
+                src="assets/images/bg/haus1/listing1-front.jpg"
                 alt=""
               />
             </div>

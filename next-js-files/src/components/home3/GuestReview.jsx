@@ -20,12 +20,12 @@ function GuestReview() {
     },
   };
   return (
-    <div className="home-three-guest-review mb-120">
+    <div className="home-three-room-suits">
       <div className="container">
         <div className="row mb-50">
           <div className="col-12">
             <div className="section-title3 text-center">
-              <h2>Guest Review</h2>
+              <h2>Guest Reviews</h2>
             </div>
           </div>
         </div>
@@ -35,10 +35,10 @@ function GuestReview() {
               <SwiperSlide className="swiper-slide">
                 <div className="guest-review-wrap d-flex align-items-center">
                   <div className="guest-img">
-                    <img
+                    {/* <img
                       src="assets/images/bg/guest-review-img-1.png"
                       alt="guest-img"
-                    />
+                    /> */}
                   </div>
                   <div className="review text-center">
                     <ul className="stars d-flex align-items-center justify-content-center">
@@ -59,25 +59,20 @@ function GuestReview() {
                       </li>
                     </ul>
                     <p>
-                      Curabitur magna nisi, egestas quis est in, finibus
-                      pulvinigor thom ghorai Nunc sitaa amet do odiotadin gone
-                      interdum, maximusonei offenart dolorbankon quis Sed lectus
-                      mauris, maximus varius nisi sed, scelerisque cursus orci.
-                      Curabitur vitae dui fringilla, dictum est non, pulvinar
-                      ante. Curabitur ullamcorper lectus.
+                    I recently stayed one of Sabai Haus' listings and was blown away by the level of comfort and convenience provided. The amenities were top-notch, and the cleanliness of the property was impeccable. The location was also perfect, with easy access to local restaurants and shops. I highly recommend booking through Sabai Haus' for a comfortable and relaxing stay.
                     </p>
-                    <h3>Sebasan Ethan</h3>
-                    <span>Guest</span>
+                    <h3>Sarah Johnson</h3>
+                    {/* <span>Guest</span> */}
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="guest-review-wrap d-flex align-items-center">
                   <div className="guest-img">
-                    <img
+                    {/* <img
                       src="assets/images/bg/guest-review-img-2.png"
                       alt="guest-img"
-                    />
+                    /> */}
                   </div>
                   <div className="review text-center">
                     <ul className="stars d-flex align-items-center justify-content-center">
@@ -98,15 +93,43 @@ function GuestReview() {
                       </li>
                     </ul>
                     <p>
-                      Curabitur magna nisi, egestas quis est in, finibus
-                      pulvinigor thom ghorai Nunc sitaa amet do odiotadin gone
-                      interdum, maximusonei offenart dolorbankon quis Sed lectus
-                      mauris, maximus varius nisi sed, scelerisque cursus orci.
-                      Curabitur vitae dui fringilla, dictum est non, pulvinar
-                      ante. Curabitur ullamcorper lectus.
+                    I had a fantastic experience! The property was beautifully decorated, and the amenities provided were outstanding. The host was also incredibly helpful and responsive, making the check-in and check-out process a breeze. I especially appreciated the attention to detail in terms of cleanliness and hygiene, which made me feel safe and secure during my stay. </p>
+                    <h3>Michael Chen</h3>
+                    {/* <span>Guest</span> */}
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="guest-review-wrap d-flex align-items-center">
+                  <div className="guest-img">
+                    {/* <img
+                      src="assets/images/bg/guest-review-img-1.png"
+                      alt="guest-img"
+                    /> */}
+                  </div>
+                  <div className="review text-center">
+                    <ul className="stars d-flex align-items-center justify-content-center">
+                      <li>
+                        <i className="bi bi-star-fill" />
+                      </li>
+                      <li>
+                        <i className="bi bi-star-fill" />
+                      </li>
+                      <li>
+                        <i className="bi bi-star-fill" />
+                      </li>
+                      <li>
+                        <i className="bi bi-star-fill" />
+                      </li>
+                      <li>
+                        <i className="bi bi-star-fill" />
+                      </li>
+                    </ul>
+                    <p>
+                    The property was even more beautiful in person than in the pictures, and the amenities provided were excellent. The location was also ideal, with easy access to local attractions and amenities. The host was incredibly accommodating and responsive, making my stay stress-free and enjoyable.
                     </p>
-                    <h3>Mosiur Rahman</h3>
-                    <span>Guest</span>
+                    <h3>Emily Rodriguez</h3>
+                    {/* <span>Guest</span> */}
                   </div>
                 </div>
               </SwiperSlide>

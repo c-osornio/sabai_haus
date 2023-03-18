@@ -9,35 +9,31 @@ function About3() {
             <div className="about-img d-flex justify-content-center">
               <img
                 className="img-fluid"
-                src="assets/images/bg/h3-about1.png"
+                src="assets/images/bg/haus1/aboutme.jpg"
                 alt="about"
               />
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2">
             <div className="section-title3  ">
-              <h2>About Hotelina</h2>
+              <h2>About Sabai Haus</h2>
             </div>
             <div className="about-content  ">
               <p>
-                Hotel ut nisl quam nestibulum ac quam nec odio elementum oneni
-                sceisuen the aucan ligula. Orci varius natoque penatibus ethemen
-                magnis discustent parturient monte nascete ridiculus
-                musclineorto elementum oneni sceisuen the aucan ligula. Orci
-                nellentesque habitant forminy morbine.
+              Welcome to Sabai Haus, your destination for comfortable and inviting Airbnb stays. As our name suggests, we take pride in providing a warm and cozy atmosphere for our guests, just like the meaning of "Sabai Haus" in Thai. Our team is dedicated to ensuring that your stay with us is both enjoyable and memorable. From our carefully selected properties to our exceptional customer service, we strive to create an experience that leaves you feeling relaxed and rejuvenated. Whether you're looking for a romantic getaway or a family vacation, we have a range of properties that cater to all your needs. Thank you for choosing Sabai Haus, we can't wait to welcome you to your home away from home.
               </p>
-              <p>
+              {/* <p>
                 Hotel ut nisl quam nestibulum ac quam nec odio elementum oneni
                 sceisuen the aucan ligula. Orci varius natoque penatibus ethemen
                 habitant forminy morbine.
-              </p>
+              </p> */}
               <div className="our-experience d-flex align-items-center">
                 <div className="icon">
-                  <img src="assets//images/icons/h3-about-icon.svg" alt="" />
+                  <img src="assets//images/icons/airbnb.png" alt="" />
                 </div>
                 <div className="content">
                   <h3>
-                    We have been serving for <span>32</span> years.
+                    Airbnb host for <span>over 5</span> years.
                   </h3>
                 </div>
               </div>
@@ -54,10 +50,9 @@ function About3() {
                 />
               </div>
               <div className="content">
-                <h3>Best Rate Guarantee</h3>
+                <h3>Low Rate Guarantee</h3>
                 <p>
-                  Integer quis libero semper, interdumorbi odiongi none
-                  consequat sem. Quisque wi mauris ut dui lacinia cursus.{" "}
+                At Sabai Haus, we believe that our guests deserve the best value for their money. That's why we guarantee that you won't find a lower rate for our properties on any other booking platform. If you do happen to find a lower rate, let us know, and we'll match it. Get the best possible value for your money. {" "}
                 </p>
               </div>
             </div>
@@ -68,10 +63,9 @@ function About3() {
                 <img src="assets/images/icons/payment-method.svg" alt="" />
               </div>
               <div className="content">
-                <h3>No Booking Fee</h3>
+                <h3>No Cancellation Fee</h3>
                 <p>
-                  Integer quis libero semper, interdumorbi odiongi none
-                  consequat sem. Quisque wi mauris ut dui lacinia cursus.{" "}
+                We understand that plans can change, and we want to make sure our guests have the flexibility to modify their bookings without any hassle. With our no cancellation fee policy, you can cancel your reservation up to 24 hours before your scheduled arrival time without incurring any charges.{" "}
                 </p>
               </div>
             </div>
@@ -80,7 +74,7 @@ function About3() {
             <div className="about-feature-img">
               <img
                 className="img-fluid"
-                src="assets/images/bg/h3-about2.png"
+                src="assets/images/bg/haus1/aboutme2.jpg"
                 alt=""
               />
             </div>

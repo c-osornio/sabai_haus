@@ -3322,6 +3322,7 @@ footer .footer-top .social-area .dot2::before {
 }
 footer .footer-top .social-area .footer-logo img {
   margin-bottom: 20px;
+  height: 100px;
 }
 footer .footer-top .social-area .footer-logo p {
   font-family: var(--font-jost);
@@ -3559,6 +3560,7 @@ footer .footer-btm .payment-mathort ul li {
 }
 footer .footer-btm .payment-mathort ul li a img {
   max-width: 100%;
+  max-height: 30px;
 }
 @media (max-width: 1199px) {
   footer .footer-btm .devlopar-area {
@@ -5524,8 +5526,8 @@ header.style-3 .header-logo {
   }
 }
 header.style-3 .header-logo img {
-  min-width: 120px;
-  max-width: 100%;
+  min-width: 150px;
+  max-width: 35%;
 }
 header.style-3 .nav-right {
   gap: 100px;
@@ -6186,7 +6188,7 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
   margin-bottom: 0;
 }
 .section-title3 h2::after {
-  content: url("../images/icons/h3-section-vector.svg");
+  /* content: url("../images/icons/h3-section-vector.svg"); */
   position: absolute;
   bottom: -7px;
   left: 50%;
@@ -6198,6 +6200,7 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
 }
 .home-three-about .about-img img {
   border-radius: 10px;
+  height: 700px;
 }
 .home-three-about .our-experience {
   padding-top: 10px;
@@ -6257,7 +6260,7 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
  29. Home Three Room & Suits
 =======================================*/
 .home-three-room-suits {
-  background-image: linear-gradient(rgba(60, 170, 159, 0.1), rgba(60, 170, 159, 0.1)), url(../images/bg/room-suits-bg2.png);
+  background-image: linear-gradient(#84a295, #Eae6da);
   width: 100%;
   background-position: center center;
   background-size: cover;

@@ -47,7 +47,8 @@ function Header3() {
       <div className="header-logo">
         <Link href="/">
           <a>
-            <img alt="image" src="assets/images/header-logo2.svg" />
+            {/* <img alt="image" src="assets/images/header-logo2.svg" /> */}
+            <img alt="logo" src="assets/images/home-logo.png"/>
           </a>
         </Link>
       </div>
@@ -58,7 +59,7 @@ function Header3() {
           <div className="mobile-logo-wrap ">
             <Link href="/">
               <a>
-                <img alt="image" src="assets/images/header-logo2.svg" />
+                {/* <img alt="logo" src="assets/images/icon-logo.jpg"/> */}
               </a>
             </Link>
           </div>
@@ -69,7 +70,7 @@ function Header3() {
           </div>
         </div>
         <ul className="menu-list">
-          <li
+          {/* <li
             className="menu-item-has-children"
             onClick={() => dispatch({ type: "homeOne" })}
           >
@@ -119,10 +120,8 @@ function Header3() {
                 </Link>
               </li>
             </ul>
-          </li>
-          <li>
-            <Link href="/about">About Us</Link>
-          </li>
+          </li> */}
+
           <li
             className="menu-item-has-children"
             onClick={() => dispatch({ type: "suits" })}
@@ -133,7 +132,7 @@ function Header3() {
                 state.activeMenu === "suits" ? "active drop-down" : "drop-down"
               }
             >
-              Suites
+              Listings
             </a>
             <i
               className={
@@ -151,22 +150,22 @@ function Header3() {
             >
               <li>
                 <Link href="/room-suits1">
-                  <a>Room &amp; Suits 01</a>
+                  <a>Family </a>
                 </Link>
               </li>
               <li>
                 <Link href="/room-suits2">
-                  <a>Room &amp; Suits 02</a>
+                  <a>Friends </a>
                 </Link>
               </li>
               <li>
                 <Link href="/room-suits-details">
-                  <a>Room &amp; Suits Details</a>
+                  <a>Comfort </a>
                 </Link>
               </li>
             </ul>
           </li>
-          <li
+          {/* <li
             className="menu-item-has-children"
             onClick={() => dispatch({ type: "pages" })}
           >
@@ -213,8 +212,8 @@ function Header3() {
                 </Link>
               </li>
             </ul>
-          </li>
-          <li
+          </li> */}
+          {/* <li
             className="menu-item-has-children"
             onClick={() => dispatch({ type: "blog" })}
           >
@@ -261,10 +260,13 @@ function Header3() {
                 </Link>
               </li>
             </ul>
+          </li> */}
+          <li>
+            <Link href="/about">About Us</Link>
           </li>
           <li>
             <Link href="/contact">
-              <a>Contact</a>
+              <a>Contacts</a>
             </Link>
           </li>
         </ul>
@@ -287,7 +289,7 @@ function Header3() {
               <div className="hotline-info">
                 <span>Call Us Now</span>
                 <h6>
-                  <a href="tel:+8801701111000">+880 170 1111 000</a>
+                  <a href="tel:+19492469149">(949) 246-9149</a>
                 </h6>
               </div>
             </div>
@@ -307,7 +309,7 @@ function Header3() {
               <div className="email-info">
                 <span>Email Now</span>
                 <h6>
-                  <a href="mailto:example@gmail.com">example@gmail.com</a>
+                  <a href="mailto:info@sabaihaus.com">info@sabaihaus.com</a>
                 </h6>
               </div>
             </div>
@@ -315,14 +317,14 @@ function Header3() {
         </div>
       </div>
       <div className="nav-right d-flex align-items-center">
-        <div className="bookmark-icon">
+        {/* <div className="bookmark-icon">
           <a href="#">
             <i className="bi bi-bookmark" />
           </a>
           <div className="batch">
             <a href="#">02</a>
           </div>
-        </div>
+        </div> */}
         <div className="header-btn">
           <Link href="/room-suits1">
             <a className="btn--primary4 eg-btn">Book Now</a>
