@@ -6168,6 +6168,7 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
 .hero-style3 .banner-img img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 /*=======================================
