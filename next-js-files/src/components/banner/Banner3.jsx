@@ -224,7 +224,7 @@ function Banner3() {
             <div className="banner-img">
               <img
                 className="img-fluid"
-                src="assets/images/bg/haus1/listing1-front.jpg"
+                src="assets/images/bg/HAUS1/listing1-front.jpg"
                 alt=""
               />
             </div>
