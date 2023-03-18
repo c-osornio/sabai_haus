@@ -70,6 +70,7 @@ function Counter2Home3RoomSuites() {
                   price,
                   numberOfGuest,
                   numberOfRooms,
+                  link,
                 } = data;
                 return (
                   <SwiperSlide key={id} className="swiper-slide wow fadeInLeft">
@@ -102,7 +103,7 @@ function Counter2Home3RoomSuites() {
                           <span>{price}</span> / Per Night
                         </div>
                         <h3>
-                          <Link href="/room-suits-details">
+                          <Link href={`/${link}`}>
                             <a>{title2}</a>
                           </Link>
                         </h3>

@@ -132,7 +132,7 @@ function Header3() {
                 state.activeMenu === "suits" ? "active drop-down" : "drop-down"
               }
             >
-              Listings
+              Check out our Listings
             </a>
             <i
               className={
@@ -149,17 +149,17 @@ function Header3() {
               }
             >
               <li>
-                <Link href="/room-suits1">
+                <Link href="/family">
                   <a>Family </a>
                 </Link>
               </li>
               <li>
-                <Link href="/room-suits2">
+                <Link href="/friends">
                   <a>Friends </a>
                 </Link>
               </li>
               <li>
-                <Link href="/room-suits-details">
+                <Link href="/comfort">
                   <a>Comfort </a>
                 </Link>
               </li>
@@ -261,14 +261,14 @@ function Header3() {
               </li>
             </ul>
           </li> */}
-          <li>
+          {/* <li>
             <Link href="/about">About Us</Link>
           </li>
           <li>
             <Link href="/contact">
               <a>Contacts</a>
             </Link>
-          </li>
+          </li> */}
         </ul>
         {/* mobile-search-area */}
         <div className="d-lg-none d-block">

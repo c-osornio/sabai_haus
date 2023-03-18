@@ -4,10 +4,10 @@ function RoomFeatures() {
   return (
     <>
       <div className="price-tag">
-        <span>$250</span> / Per Night
+        <span>$350</span> / Per Night
       </div>
 
-      <h2>Double Room</h2>
+      <h2>Family Listing</h2>
       <ul className="stars d-flex align-items-center">
         <li>
           <i className="bi bi-star-fill" />
@@ -26,15 +26,9 @@ function RoomFeatures() {
         </li>
       </ul>
       <p>
-        Welcome to the best five-star luxury hotel in New York. Hotel is veryes
-        elementum sesue the aucan vestibulum aliquam justo in sapien on thi
-        rutrum volutpat. Donec in quis the pellentesque velit. Donec id velitel
-        ac arcu posuere blane. Hotel ut nisl quam nestibulum ac quam nec odio
-        elementum sceisuen the aucan ligula. Orcive varius natoque penatibus et
-        magnis discustent parturient monte nascete ridiculus mus nellentesque
-        habitant forminy morbine.
+      Welcome to our spacious and modern 3-bedroom, 3-bathroom short-term rental that comfortably accommodates up to 6 guests. Each bedroom has its own private bathroom and ample closet space, with high-quality linens provided. The living area is bright and airy, with comfortable seating, a large flat-screen TV, and free Wi-Fi. The dining area features a large table for up to 6 guests, and the fully equipped kitchen has everything you need to prepare meals. Other amenities include a washer and dryer, iron and ironing board, and air conditioning. Book your stay today and enjoy all the comforts of home and more!
       </p>
-      <h4>Room Feature.</h4>
+      <h4>Features</h4>
       <ul className="room-features d-flex align-items-center">
         <li>
           <svg
@@ -199,17 +193,15 @@ function RoomFeatures() {
 
       <h4>Pets.</h4>
       <p>Pets not allowed</p>
-      <h4>Children and extra beds.</h4>
+      <h4>Check-In and Check-Out Times</h4>
       <p>
-        Children are welcome Kids stay free! Children stay free when using
-        existing bedding; children may not be eligible for complimentary
-        breakfast Rollaway/extra beds are available for $ 10 per day.
+      To ensure a smooth check-in and check-out process, please note that our check-in time is from 3:00 PM to 2:00 AM, and check-out is before 12:00 PM. We kindly ask that you adhere to these times to allow us to prepare the unit for the next guests.
       </p>
-      <h4>Extra Services</h4>
+      <h4>Nearby Attractions</h4>
       <ul className="room-features extra-service d-flex align-items-center">
         <li>
           <i className="bi bi-circle" />
-          Bar &amp; Pub
+          Breweries
         </li>
         <li>
           <i className="bi bi-circle" />
@@ -217,19 +209,19 @@ function RoomFeatures() {
         </li>
         <li>
           <i className="bi bi-circle" />
-          Summer terrace
+          Gym
         </li>
         <li>
           <i className="bi bi-circle" />
-          Health club
+          Theater
         </li>
         <li>
           <i className="bi bi-circle" />
-          Lugage storage
+          Golf Course
         </li>
         <li>
           <i className="bi bi-circle" />
-          Fitness room
+          Beach
         </li>
         <li>
           <i className="bi bi-circle" />
@@ -237,7 +229,7 @@ function RoomFeatures() {
         </li>
         <li>
           <i className="bi bi-circle" />
-          Banquet faciliti
+          Shopping Center
         </li>
       </ul>
     </>

@@ -20,7 +20,7 @@ function About3() {
             </div>
             <div className="about-content  ">
               <p>
-              Welcome to Sabai Haus, your destination for comfortable and inviting Airbnb stays. As our name suggests, we take pride in providing a warm and cozy atmosphere for our guests, just like the meaning of "Sabai Haus" in Thai. Our team is dedicated to ensuring that your stay with us is both enjoyable and memorable. From our carefully selected properties to our exceptional customer service, we strive to create an experience that leaves you feeling relaxed and rejuvenated. Whether you're looking for a romantic getaway or a family vacation, we have a range of properties that cater to all your needs. Thank you for choosing Sabai Haus, we can't wait to welcome you to your home away from home.
+              Welcome to Sabai Haus, your destination for comfortable and inviting short term rentals. As our name suggests, we take pride in providing a warm and cozy atmosphere for our guests, just like the meaning of "Sabai Haus" in Thai. Our team is dedicated to ensuring that your stay with us is both enjoyable and memorable. From our carefully selected properties to our exceptional customer service, we strive to create an experience that leaves you feeling relaxed and rejuvenated. Whether you're looking for a romantic getaway or a family vacation, we have a range of properties that cater to all your needs. Thank you for choosing Sabai Haus, we can't wait to welcome you to your home away from home.
               </p>
               {/* <p>
                 Hotel ut nisl quam nestibulum ac quam nec odio elementum oneni
