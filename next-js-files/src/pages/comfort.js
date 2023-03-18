@@ -12,7 +12,7 @@ import ReactDatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
-function Confort() {
+function Comfort() {
   const [startDate1, setStartDate1] = useState(false);
   const [startDate2, setStartDate2] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
