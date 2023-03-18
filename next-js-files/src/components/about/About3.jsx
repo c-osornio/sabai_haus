@@ -9,7 +9,7 @@ function About3() {
             <div className="about-img d-flex justify-content-center">
               <img
                 className="img-fluid"
-                src="assets/images/bg/haus1/aboutme.jpg"
+                src="assets/images/bg/HAUS1/aboutme.jpg"
                 alt="about"
               />
             </div>
@@ -27,7 +27,7 @@ function About3() {
                 sceisuen the aucan ligula. Orci varius natoque penatibus ethemen
                 habitant forminy morbine.
               </p> */}
-              <div className="our-experience d-flex align-items-center">
+              {/* <div className="our-experience d-flex align-items-center">
                 <div className="icon">
                   <img src="assets//images/icons/airbnb.png" alt="" />
                 </div>
@@ -36,7 +36,7 @@ function About3() {
                     Airbnb host for <span>over 5</span> years.
                   </h3>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -50,9 +50,9 @@ function About3() {
                 />
               </div>
               <div className="content">
-                <h3>Low Rate Guarantee</h3>
+                <h3>Local Recommendations</h3>
                 <p>
-                At Sabai Haus, we believe that our guests deserve the best value for their money. That's why we guarantee that you won't find a lower rate for our properties on any other booking platform. If you do happen to find a lower rate, let us know, and we'll match it. Get the best possible value for your money. {" "}
+                At Sabai Haus, we believe in supporting our local community and want to share the best of what it has to offer with our guests. Our team has curated a list of top-rated restaurants, shops, and attractions in the area, so you can explore with confidence. With our local recommendations, you're sure to have a thumbs up-worthy experience during your stay. {" "}
                 </p>
               </div>
             </div>
@@ -63,9 +63,9 @@ function About3() {
                 <img src="assets/images/icons/payment-method.svg" alt="" />
               </div>
               <div className="content">
-                <h3>No Cancellation Fee</h3>
+                <h3>Convenient Payment Options</h3>
                 <p>
-                We understand that plans can change, and we want to make sure our guests have the flexibility to modify their bookings without any hassle. With our no cancellation fee policy, you can cancel your reservation up to 24 hours before your scheduled arrival time without incurring any charges.{" "}
+                At Sabai Haus, we understand that everyone has their preferred method of payment. That's why we accept all major credit cards, as well as alternative payment options such as PayPal and Venmo. We want to make the booking process as convenient as possible for our guests.{" "}
                 </p>
               </div>
             </div>
@@ -74,7 +74,7 @@ function About3() {
             <div className="about-feature-img">
               <img
                 className="img-fluid"
-                src="assets/images/bg/haus1/aboutme2.jpg"
+                src="assets/images/bg/HAUS1/aboutme2.jpg"
                 alt=""
               />
             </div>
