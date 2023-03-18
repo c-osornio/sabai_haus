@@ -53,7 +53,7 @@ function Footer() {
               </div>
               <div className="email-info">
                 <h6 className="mb-10"><a href="mailto:info@sabaihaus.com">info@sabaihaus.com</a></h6>
-                <h6><a href="mailto:sabaihaus@gmail.com">sabaihaus@gmail.com</a></h6>
+                {/* <h6><a href="mailto:sabaihaus@gmail.com">sabaihaus@gmail.com</a></h6> */}
               </div>
             </div>
             <div className="email">

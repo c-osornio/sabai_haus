@@ -30,7 +30,7 @@ function Service3() {
               <li><img src="assets/images/icons/check.svg" alt="check" />Equipped Kitchens</li>
               <li><img src="assets/images/icons/check.svg" alt="check" />Smart TVs</li>
               <li><img src="assets/images/icons/check.svg" alt="check" />Gym</li>
-              <li><img src="assets/images/icons/check.svg" alt="check" />Pets</li>
+              <li><img src="assets/images/icons/check.svg" alt="check" />Toiletries</li>
               <li><img src="assets/images/icons/check.svg" alt="check" />Pool</li>
             </ul>
           </div>
