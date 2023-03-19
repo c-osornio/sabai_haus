@@ -114,7 +114,7 @@ function Counter2Home3RoomSuites() {
                                 src="assets/images/icons/double-bed1.svg"
                                 alt=""
                               />
-                              {numberOfGuest}
+                              {numberOfGuest} Guests
                             </p>
                           </div>
                           <div className="persons">
