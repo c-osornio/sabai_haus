@@ -244,7 +244,7 @@ function Family() {
                     </div>
                   </div>
                   <div className="wp-block-text__inside-wrapper ">
-                    <textarea placeholder="Note (If Any)" defaultValue={""} />
+                    <textarea placeholder="Note" defaultValue={""} />
                   </div>
                   <div className="wp-block-text__inside-wrapper submit-btn">
                     <button type="submit">Book Now</button>
