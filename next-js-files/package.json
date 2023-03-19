@@ -1,8 +1,8 @@
 {
-  "name": "hotelina-next",
+  "name": "SabaiHaus-next",
   "version": "0.1.0",
   "private": true,
-  "author": "Egenslab",
+  "author": "OsoTech",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
