@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/family": "pages/family.js"
+  "/friends": "pages/friends.js",
+  "/comfort": "pages/comfort.js"
 }

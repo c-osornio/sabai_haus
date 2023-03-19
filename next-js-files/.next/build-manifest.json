@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/family": [
+    "/comfort": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/family.js"
+      "static/chunks/pages/comfort.js"
+    ],
+    "/friends": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/friends.js"
     ]
   },
   "ampFirstPages": []
