@@ -18,9 +18,9 @@ function Banner3() {
     { value: "6 Guests", label: "6 Guests" },
   ];
   const roomOptions = [
-    { value: "Listing 1", label: "Listing 1" },
-    { value: "Listing 2", label: "Listing 2" }
-    // { value: "Room 3", label: "Room 3" },
+    { value: "Family", label: "Family" },
+    { value: "Friends", label: "Friends" },
+    { value: "Comfort", label: "Comfort" }
     // { value: "Room 4", label: "Room 4" },
     // { value: "Room 5", label: "Room 5" },
   ];
@@ -211,7 +211,7 @@ function Banner3() {
                   </div>
                   <div className="col-lg-3 px-0 d-flex justify-content-lg-end justify-content-center">
                     <div className="main-form-submit">
-                      <Link href="/room-suits1">
+                      <Link href="/family">
                         <a className="btn--primary4 eg-btn">Find Now</a>
                       </Link>
                     </div>
