@@ -1,1 +1,1 @@
-# sabai_haus
+Welcome to Sabai Haus - your ultimate destination for short-term rentals! Our website is built with modern technologies like React and Next.js, and styled with the power of SASS. Deployed with lightning-fast speed through Vercel, our platform offers a seamless experience for guests to explore and book unique properties. Browse through our curated selection of listings and enjoy a hassle-free booking process today!
