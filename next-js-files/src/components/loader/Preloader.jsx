@@ -15,9 +15,9 @@ function Preloader() {
           <div className="row d-flex justify-content-center">
             <div className="col-6">
               <div className="circle-border">
+                {/* <div className="moving-circle" />
                 <div className="moving-circle" />
-                <div className="moving-circle" />
-                <div className="moving-circle" />
+                <div className="moving-circle" /> */}
                 <svg
                   width="180px"
                   height="150px"

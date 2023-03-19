@@ -3,7 +3,7 @@ import Link from "next/link";
 import Select from "react-select";
 import Breadcrum from "../components/common/Breadcrum";
 import Layout from "../components/Layout/Layout";
-import RoomFeatures from "../components/roomSuitsDetails/RoomFeatures";
+import RoomFeatures2 from "../components/roomSuitsDetails/RoomFeatures2";
 import SummarOffer from "../components/roomSuitsDetails/SummarOffer";
 import roomdata from "../data/blog_grid.json";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -118,8 +118,8 @@ function Friends() {
   return (
     <Layout>
       <Breadcrum
-        pageName="Family Listing"
-        pageTitle="Family Listing"
+        pageName="Friends Listing"
+        pageTitle="Friends Listing"
       />
       <div className="room-suits-details-page pt-120 mb-120">
         <div className="container">
@@ -134,7 +134,7 @@ function Friends() {
                     <div className="rooms-images">
                       <img
                         className="img-fluid"
-                        src="assets/images/bg/HAUS1/listing1-front.jpg"
+                        src="assets/images/bg/HAUS2/friendslisting1.jpg"
                         alt=""
                       />
                     </div>
@@ -143,7 +143,7 @@ function Friends() {
                     <div className="rooms-images">
                       <img
                         className="img-fluid"
-                        src="assets/images/bg/HAUS1/familylisting1.jpg"
+                        src="assets/images/bg/HAUS2/kitchen.jpg"
                         alt=""
                       />
                     </div>
@@ -152,7 +152,7 @@ function Friends() {
                     <div className="rooms-images">
                       <img
                         className="img-fluid"
-                        src="assets/images/bg/HAUS1/listing1-bath.jpg"
+                        src="assets/images/bg/HAUS2/bed.jpg"
                         alt=""
                       />
                     </div>
@@ -161,7 +161,7 @@ function Friends() {
                     <div className="rooms-images">
                       <img
                         className="img-fluid"
-                        src="assets/images/bg/HAUS1/listing1-kitchen.jpg"
+                        src="assets/images/bg/HAUS2/bath.jpg"
                         alt=""
                       />
                     </div>
@@ -176,7 +176,7 @@ function Friends() {
                   </div>
                 </div>
               </Swiper>
-              <RoomFeatures />
+              <RoomFeatures2 />
             </div>
             <div className="col-lg-4">
               <div className="widget-area2">

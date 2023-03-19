@@ -11,7 +11,7 @@ function Layout({ children }) {
         <title>
           Sabai Haus
         </title>
-        <meta name="description" content="Home for comfortable short term rentals" />
+        <meta name="description" content="Homepage for comfortable short term rentals" />
         <link rel="icon" href="assets/images/bg/sm-logo.png" />
       </Head>
       {/* <LayoutHeader /> */}

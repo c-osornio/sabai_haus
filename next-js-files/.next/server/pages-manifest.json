@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/room-suits2": "pages/room-suits2.js",
-  "/": "pages/index.js",
-  "/friends": "pages/friends.js"
+  "/": "pages/index.js"
 }
