@@ -326,7 +326,7 @@ function Header3() {
           </div>
         </div> */}
         <div className="header-btn">
-          <Link href="/room-suits1">
+          <Link href="/listings">
             <a className="btn--primary4 eg-btn">Book Now</a>
           </Link>
         </div>

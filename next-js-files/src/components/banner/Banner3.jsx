@@ -56,6 +56,25 @@ function Banner3() {
       color: "#3CAA9F",
     }),
   };
+
+  const handleRoomOption = (selectedRoomOption) => {
+    setSelectedOption2(selectedRoomOption);
+    switch (selectedRoomOption.value) {
+    case "Family":
+    router.push("/family");
+    break;
+    case "Friends":
+    router.push("/friends");
+    break;
+    case "Comfort":
+    router.push("/comfort");
+    break;
+    default:
+    router.push("/");
+    break;
+    }
+    };
+    
   return (
     <div className="hero-style3">
       <div className="container-fluid">
@@ -211,7 +230,7 @@ function Banner3() {
                   </div>
                   <div className="col-lg-3 px-0 d-flex justify-content-lg-end justify-content-center">
                     <div className="main-form-submit">
-                      <Link href="/family">
+                      <Link href="/listings">
                         <a className="btn--primary4 eg-btn">Find Now</a>
                       </Link>
                     </div>
