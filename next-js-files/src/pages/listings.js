@@ -47,7 +47,7 @@ function Listings() {
                         <div className="persons">
                           <p>
                             <img src="assets/images/icons/persons.svg" alt="" />
-                            {numberOfGuest}Guest
+                            {numberOfGuest}Guests
                           </p>
                         </div>
                       </div>

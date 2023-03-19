@@ -7,7 +7,7 @@
     "home3image":"assets/images/bg/HAUS1/familylisting1.jpg",
     "price":"$350",
     "numberOfRooms": "3 Bedrooms",
-    "numberOfGuest":"6  Guests",
+    "numberOfGuest":"6 ",
     
     "descrition":"Hotel ut nisl quam nestibulum ac quam necarl ligula. Orci varius natoque penatibus ethemen magnis discustent parturient.",
     "category": "Hotel",
@@ -23,7 +23,7 @@
     "home3image":"assets/images/bg/HAUS2/friendslisting1.jpg",
     "category": "Delux",
     "numberOfRooms": "2 Bedroom",
-    "numberOfGuest":"6  Guests",
+    "numberOfGuest":"6 ",
     "home2Image":"assets/images/blog/blog5.png",
     "descrition":"Hotel ut nisl quam nestibulum ac quam necarl ligula. Orci varius natoque penatibus ethemen magnis discustent parturient.",
     "title": "Aenean Quis Nisl Pretiuman Nibh Accumsan.",
@@ -38,7 +38,7 @@
     "home3image":"assets/images/bg/HAUS3/comfortlisting1.jpg",
     "category": "Luxury",
     "numberOfRooms": "2 Bedroom",
-    "numberOfGuest":"6  Guest",
+    "numberOfGuest":"6 ",
     "title": "Veryes Elementum Sesuren Then Aucan Vestibu.",
     "title2": "Comfort Listing",
     "link": "comfort"
