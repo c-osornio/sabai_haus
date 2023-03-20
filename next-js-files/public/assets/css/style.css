@@ -52,7 +52,7 @@ Template Name: Hotelina - Luxury Hotel and Suits Booking HTML Template.
 :root {
   /*color Variable*/
   /* --primary-color1: #3CAA9F; */
-  --primary-color1: #84A295;
+  --primary-color1: #B7CDC2;
   --title-color: #1C171D;
   --text-color1: #666666;
   --white: #fff;
@@ -5883,6 +5883,7 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
 .hero-style3 {
   display: flex;
   align-items: center;
+  margin-bottom: 100px;
 }
 .hero-style3 .hero-left {
   background-image: url(../images/bg/h3-banner-left-bg.png);
@@ -6201,6 +6202,12 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
   transform: translateX(-50%);
 }
 
+.home-three-about {
+  background-color: #F7F6EE;
+  margin-bottom: 0;
+  padding-bottom: 100px;
+}
+
 .home-three-about .section-title3 h2 {
   margin-bottom: 13px;
 }
@@ -6279,6 +6286,11 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
     margin-bottom: 20px;
   }
 }
+.home-three-room-suits {
+    margin-bottom: 0;
+    padding-bottom: 100px;
+}
+
 .home-three-room-suits .view-btn a {
   font-family: var(--font-jost);
   font-weight: 600;
@@ -6391,7 +6403,7 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
   gap: 70px;
 }
 .home-three-room-suits .swiper-btn .btns svg {
-  stroke: var(--primary-color1);
+  stroke: var(--text-color1);
   fill: none;
   transition: 0.35s;
 }
@@ -6414,6 +6426,13 @@ header.style-3 .hotline .hotline-info h6, header.style-3 .hotline .email-info h6
     justify-content: center;
   }
 }
+.home-three-service {
+    background-color: #F7F6EE;
+    padding-top: 100px;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+}
+
 .home-three-service .service-content span {
   font-family: var(--font-jost);
   font-weight: 500;
