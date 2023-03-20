@@ -34,7 +34,7 @@ function Room1() {
                   <div className="background" />
                   <div className="room-content">
                     <div className="price-tag">
-                      <span>{price}</span> / Per Night
+                      <span>{price}</span> / per night
                     </div>
                     <h3>
                       <Link href="/room-suits-details">
